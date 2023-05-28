@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ハム将棋 を Ruffle で動かす方法 | c-loft.com</title>
+    <!-- <script src="https://unpkg.com/@ruffle-rs/ruffle"></script> -->
+    <!-- これが本家ruffleです。これでも動きますが日本語表示に現状対応していないです -->
+    <script src="ruffle/ruffle.js"></script> <!-- これは有志による日本語対応版ruffle ( https://github.com/midorism64/ruffle ) です -->
+
+    <meta name="description" content="伝説の将棋ゲーム「ハム将棋」を Flash Player エミュレーター Ruffle で動かす非公式デモです。">
+    <meta property="og:url" content="https://c-loft.com/ham-shogi/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ハム将棋 を Ruffle で動かす方法 | c-loft.com" />
+    <meta property="og:description" content="伝説の将棋ゲーム「ハム将棋」を Flash Player エミュレーター Ruffle で動かす非公式デモです。" />
+    <meta property="og:site_name" content="ハム将棋 を Ruffle で動かす方法 | c-loft.com" />
+    <meta property="og:image" content="https://c-loft.com/ham-shogi/img/ham-01.png" />
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@loftkun" />
+</head>
+
+<body style="margin:20px">
+    <div style="text-align:center">
+        <div><b>ハム将棋 を <a href="https://ruffle.rs/">Ruffle</a> で動かす方法</b></div>
+        <br>
+        <div>
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+                codebase="https://web.archive.org/web/20190607211949oe_/http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0"
+                width="548" height="334" id="shogi">
+                <param name="allowScriptAccess" value="sameDomain">
+                <param name="movie" value="shogi.swf">
+                <param name="base" value="http://c-loft.com/ham-shogi/">
+                <param name="loop" value="false">
+                <param name="menu" value="false">
+                <param name="quality" value="high">
+                <embed src="shogi.swf" base="http://c-loft.com//ham-shogi/" loop="false" menu="false" quality="high"
+                    width="1096" height="668" name="shogi" align="" allowscriptaccess="sameDomain"
+                    type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+                </embed>
+            </object>
+        </div>
+        マウス使用で快適にプレイ可能(ハムだけに)
+        <br>
+        <br>
+        <div>
+            <div><b>関連ツイート</b></div>
+            <br>
+            <div align="center">
+                <blockquote class="twitter-tweet">
+                    <p lang="ja" dir="ltr">ハム将棋の swf ファイルは Internet Archive Wayback Machine から shogi.swf ファイルを
+                        ダウンロードしてね<br><br>例えば以下からダウンロードできます( 自己責任で！ )<a
+                            href="https://t.co/D6UPAx66sI">https://t.co/D6UPAx66sI</a></p>&mdash; ロフトくん (@loftkun) <a
+                        href="https://twitter.com/loftkun/status/1603934913048481792?ref_src=twsrc%5Etfw">December 17,
+                        2022</a>
+                </blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <blockquote class="twitter-tweet">
+                    <p lang="ja" dir="ltr">ハム将棋の各種説明文の文章は swf ファイルとは
+                        別のファイルに書かれているみたいなので、このツイートでご紹介している方法では表示されないけれども<br><br>説明文のファイル( smsg.txt ) はInternet Archive
+                        Wayback Machine で入手できます( 自己責任で！)<a href="https://t.co/2c8dtvnR1I">https://t.co/2c8dtvnR1I</a>
+                    </p>&mdash; ロフトくん (@loftkun) <a
+                        href="https://twitter.com/loftkun/status/1603936710995619840?ref_src=twsrc%5Etfw">December 17,
+                        2022</a>
+                </blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+        <br>
+        <div>
+            <div><b>説明と免責</b></div>
+            <ul>
+                当サイトはハム将棋のような懐かしいFlashゲームを個人で楽しむための手法や手順の検証を目的とするする非公式のデモです。
+                <br>
+                当デモやファイル一式の利用によって何らかの損害が発生した場合でも、当方は一切の責任を負いません。
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
